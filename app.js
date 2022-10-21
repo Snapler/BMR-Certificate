@@ -2,7 +2,8 @@ function dailymanCal(manCal) {
   var fieldWeights = document.getElementById("fieldWeights").value;
   var fieldHeights = document.getElementById("fieldHeights").value;
   var fieldAges = document.getElementById("fieldAges").value;
-  var manCal = 66.5 + (13.75 * fieldWeights) + (5 * fieldHeights) - (6.75 * fieldAges);
+  var manCal =
+    66.5 + 13.75 * fieldWeights + 5 * fieldHeights - 6.75 * fieldAges;
   return manCal;
 }
 function dailywomanCal(womanCal) {
@@ -10,7 +11,7 @@ function dailywomanCal(womanCal) {
   var fieldHeights = document.getElementById("fieldHeights").value;
   var fieldAges = document.getElementById("fieldAges").value;
   var womanCal =
-    665 + (9.56 * fieldWeights) + (1.85 * fieldHeights) - (4.67 * fieldAges);
+    665 + 9.56 * fieldWeights + 1.85 * fieldHeights - 4.67 * fieldAges;
   return womanCal;
 }
 
@@ -31,22 +32,22 @@ function displaywomanCal(womanCal) {
 // }
 // let userInput = prompt("Enter Your Name : ");
 
-function FahtoCel(Fahrenheit) {
-  let value = ((Fahrenheit - 32) * 5) / 9;
-  return value.toFixed(2) + " C ";
-}
-function toCelcius(value) {
-  alert(FahtoCel(value));
-}
+// function FahtoCel(Fahrenheit) {
+//   let value = ((Fahrenheit - 32) * 5) / 9;
+//   return value.toFixed(2) + " C ";
+// }
+// function toCelcius(value) {
+//   alert(FahtoCel(value));
+// }
 
-function CeltoFah(Celcius) {
-  let value = (Celcius * 9) / 5 + 32;
-  return value.toFixed(2) + " F ";
-}
+// function CeltoFah(Celcius) {
+//   let value = (Celcius * 9) / 5 + 32;
+//   return value.toFixed(2) + " F ";
+// }
 
-function toFahrenheit(value) {
-  alert(CeltoFah(value));
-}
+// function toFahrenheit(value) {
+//   alert(CeltoFah(value));
+// }
 
 // {
 //   let lottoNum = prompt("มึงทำเพื่ออะไร ทำเหี้ยอะไร");
